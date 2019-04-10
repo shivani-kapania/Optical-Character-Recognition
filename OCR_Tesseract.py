@@ -70,7 +70,7 @@ def decode_predictions(scores, geometry):
 
 
 # load the input image and grab the image dimensions
-image = cv2.imread('exampleimg.png')
+image = cv2.imread('images/exampleimg.png')
 orig = image.copy()
 (origH, origW) = image.shape[:2]
 
